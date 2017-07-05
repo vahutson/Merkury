@@ -1,0 +1,84 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+    margin-left: 160px;
+    margin-right: 150px;
+}
+
+
+li {
+    display: inline-block;
+}
+
+.nav-item {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 65px;
+    font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    margin-left: 60px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #5584ff;
+    border: 1px solid #5584ff;
+    border-radius: 30px;
+    padding: 17px 43px;
+    line-height: 65px;
+    font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0e1a35;
+}

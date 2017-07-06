@@ -125,7 +125,7 @@ body {
 
 #features {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: white;
     width: 100%;
 }
@@ -133,6 +133,8 @@ body {
     display: inline-block;
     background-color: white;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .features-name {

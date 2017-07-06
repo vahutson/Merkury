@@ -83,7 +83,7 @@ li {
 
 body {
     background-color: #0e1a35;
-    
+
 }
 
 #home {
@@ -123,4 +123,59 @@ body {
 
 }
 
+#features {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+}
+.ftr {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+}
 
+.features-name {
+    color: #0e1a35;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.grey-p1 {
+    display: inline-block;
+    color: #a7b1c5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    width: 320px;
+    height: 76px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    line-height: 25px;
+}
+
+.icon {
+    margin: 0 auto;
+    padding-top: 265px;
+    padding-bottom: 40px;
+    width: 80px;
+    height: 75px;
+}
+
+.seemore {
+    display: block;
+    text-decoration: none;
+    color: #0e1a35;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 1px solid #a7b1c5;
+    border-radius: 25px;
+    padding: 20px 90px ;
+    width: 250px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}

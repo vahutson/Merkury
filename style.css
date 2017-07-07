@@ -201,3 +201,56 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
 }
+
+#need-browser {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 225px;
+
+}
+
+.pads {
+    width: 50%;
+    height: 50%;
+}
+
+.need_text_content {
+    padding-top: 30px;
+    padding-left: 150px;
+    text-align: left;
+}
+
+.need-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #0e1a35;
+    padding-bottom: 50px;
+
+}
+.light-grey-p {
+    width: 470px;
+    color: #8492af;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding-bottom: 50px;
+    line-height: 2.5;
+}
+
+.its_ok {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+    vertical-align: text-bottom;
+}
+
+.light-blue-p {
+    display: inline;
+    color: #5284ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 60px;
+    padding-left: 10px;
+    vertical-align: super;
+}

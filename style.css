@@ -86,10 +86,30 @@ body {
 
 }
 
+.bcg {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background: url('img/Graph.png') center no-repeat;
+    background-size: 100%;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.bcg2 {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background: url('img/Grid.png') 0 -30px no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    z-index: -2;
+}
+
 #home {
 
     text-align: center;
-
+    padding-bottom: 300px;
 
 }
 

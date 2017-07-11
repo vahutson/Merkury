@@ -221,13 +221,19 @@ li {
 #drag_drop {
     display: flex;
     justify-content: space-around;
-    margin-top: 165px;
+
     padding-left: 35px;
     padding-right: 35px;
+    padding-bottom: 200px;
 
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: left;
+}
+
+.bcg3 {
+    height: 100%;
+    background-size: 150%;
 }
 
 #drag-drop-boards {
@@ -236,6 +242,7 @@ li {
 }
 
 .drag-title, .drop-title {
+    padding-top: 165px;
     padding-bottom: 35px;
     font-size: 30px;
 }
@@ -327,9 +334,11 @@ li {
 }
 
 .item-info {
+
 }
 
 .drag_drop-info {
+    padding-top: 220px;
     padding-left: 35px;
     width: 530px;
 }
@@ -349,3 +358,104 @@ li {
     text-align: center;
     line-height: 100px;
 }
+
+.psd-template {
+    position: relative;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+
+    height: 1130px;
+}
+
+.psd-bcg {
+    top: 186px;
+    left: 5px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('img/psd-bcg.png') center no-repeat;
+    background-size: 100%;
+}
+.psd-title {
+    padding-top: 100px;
+    padding-bottom: 65px;
+    font-size: 45px;
+    font-weight: 300;
+    color: #0e1a35;
+    text-align: center;
+}
+
+.psd-p {
+    margin: 0 auto;
+    text-align: center;
+    width: 930px;
+}
+
+.psd-p2 {
+    position: relative;
+    width: 400px;
+    border-bottom: 2px solid #5284ff;
+    box-sizing: content-box;
+}
+
+
+
+.point {
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border: 7px solid #99b5ff;
+    background-color: #5584ff;
+    border-radius: 50%;
+
+}
+
+.left-psd {
+
+    margin-top: 185px;
+    padding-left: 30px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.right-psd {
+    position: absolute;
+    right: 30px;
+
+    padding-right: 30px;
+    text-align: right;
+    line-height: 30px;
+}
+.point1 {
+    left: 440px;
+    top: 8px;
+}
+
+.point2 {
+    top: 7px;
+    left: -11px;
+
+}
+
+.left-p, .right-p {
+    width: 200px;
+    padding-top: 15px;
+}
+
+.right-p {
+    box-sizing: content-box;
+    padding-left: 260px;
+}
+.left-pa {
+    padding-right: 60px;
+}
+
+.right-pa {
+    padding-left: 60px;
+}
+
+
+
+
+

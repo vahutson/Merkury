@@ -455,7 +455,154 @@ li {
     padding-left: 60px;
 }
 
+.prices-main {
+    background-color: white;
+    padding: 150px 150px 120px 150px;
+}
+.price-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-board {
+    padding: 55px;
+    -webkit-box-shadow: 0px 0px 35px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 35px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 35px -5px rgba(0,0,0,0.75);
+}
+.price-title {
+    padding-bottom: 100px;
+
+    color: #0e1a35;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+}
 
 
+.plan-name {
+    color: #0e1a35;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    color: #0e1a35;
+    padding: 40px 0;
+}
+
+.dollar {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.money {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.sub-month {
+    color: #a7b1c5;
+    font-size: 18px;
+}
+.price-board .light-grey-p {
+    padding: 0;
+}
+
+.blue-check {
+    margin-right: 3px;
+    padding: 0 3px;
+    color: #5384ff;
+    font-weight: bold;
+    border: 2px solid #5384ff;
+    border-radius: 50%;
+}
+
+.red-cross {
+    margin-right: 3px;
+    padding: 0 2px;
+    color: #f8407e;
+    border: 2px solid #f8407e;
+    border-radius: 50%;
+}
+
+.price-end-paragraph {
+    padding-top: 150px;
+    text-align: center;
+}
+.join {
+    display: block;
+    width: 205px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #5584ff;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #5584ff;
+    padding: 18px 55px;
+    margin: 85px auto;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #0e1a35;
+
+    padding-left: 75px;
+    padding-right: 265px;
+
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.footer-li a, .all-rights {
+    font-family: 'Roboto', sans-serif;
+    color: #8492af;
+    text-decoration: none;
+    line-height: 150px;
+}
+.awebs {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.tweeter {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("img/Twitter_bird_logo_2012.svg.png") center no-repeat;
+    background-size: 100%;
+}
+
+.facebook {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("img/facebook-logo_icon-icons.com_70153.png") center no-repeat;
+    background-size: 100%;
+}
+
+.google {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("img/google plus.png") center no-repeat;
+    background-size: 100%;
+}
 
 
